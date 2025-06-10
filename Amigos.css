@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #303031;
+  color: #e66d0a;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #e66d0a;
+  text-decoration: none;
+}
+
+.lista-amigos {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.amigo {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  color: #303031;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.conversa-simulada {
+  background: #f4f4f4;
+  padding: 10px;
+  border-radius: 6px;
+  margin-top: 10px;
+  font-size: 14px;
+}
